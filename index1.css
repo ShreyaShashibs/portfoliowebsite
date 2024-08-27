@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #ededed;
+    padding-top: 90px;
+    background-color: palevioletred;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    display: inline-block;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    transition-duration: none;
+    justify-content: space-around;
+}
+#dv1{
+    display: block;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 40px;
+    margin-top:3px;
+    margin-left: 30px;
+
+}
+#dv2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+#divmain {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px; 
+    margin-left: 50px;
+}
+.img{
+    border-radius: 50%;
+    margin-top:0.5px;
+    margin-right: 50px;
+
+ }
+#section2{
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-left:30px;
+ }
+ 
+ #section3{
+    margin-top: 50px;
+    margin-left: 30px;
+
+ }
+#skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#programming, #webdevelopment, #tools {
+    width: 350px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    background-color: blueviolet;
+    border-radius: 25px;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Add shadow for depth */
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer; /* Add cursor pointer for interaction */
+}
+#imagediv1,#imagediv2,#imagediv3{
+    display:flex;
+    margin-top:20px;
+   justify-content: space-around;
+}
+
+#programming:hover, #webdevelopment:hover, #tools:hover {
+    transform: translateY(-5px); /* Move box up slightly on hover */
+}
+
+#h2{
+    margin-top: 30px;
+}
+
+.form-container {
+    display: flex;
+   
+   
+ justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form h2 ,h3{
+    margin-bottom: 20px;
+    color: black;
+}
+
+form label {
+    margin-bottom: 10px;
+    color: black;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: blueviolet;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: darkviolet;
+}
+#para{
+    display: inline-block;
+    font-family:'Poppins', sans-serif; 
+    font-weight: 400;
+    background-color:  darkviolet;
+    padding: 20px;
+    width: 50%;
+ /* Adjust background color */
+/* Adjust border radius for rounded corners */
+border-radius: 50px; 
+    box-shadow: 40px 40px 40px rgba(14, 2, 31, 0.74);
+    overflow: hidden;
+}
+#aboutme{
+    margin-top: 100px;
+}
